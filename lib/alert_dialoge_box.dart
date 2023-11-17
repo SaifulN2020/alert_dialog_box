@@ -29,7 +29,7 @@ class _AlertBoxState extends State<AlertBox> {
                           child: Text("Cancel")),
                       TextButton(
                           onPressed: () {
-                            print("Data Delete");
+                            print("Successfully Deleted");
                             Navigator.of(context).pop();
                           },
                           child: Text("Delete"))
