@@ -1,4 +1,5 @@
 import 'package:alert_dialog_box/alert_dialoge_box.dart';
+import 'package:alert_dialog_box/pages/page_sample.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,13 +13,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
 
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: AlertBox(),
+      home:PageSample()
+      //AlertBox(),
     );
   }
 }
